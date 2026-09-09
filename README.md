@@ -1,6 +1,8 @@
 # VocSense: Decoding Speech from Neck Muscle Activity
 Bio-Electronic Silent Speech Recognition Neckband
-
+---
+<div align="center">
+  
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://vocsense.streamlit.app)
 [![Hardware Architecture](https://img.shields.io/badge/Hardware-ESP32%20%7C%20sEMG%20%7C%20IMU-0284c7)](#hardware-architecture)
