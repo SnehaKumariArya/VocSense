@@ -11,15 +11,15 @@ Bio-Electronic Silent Speech Recognition Neckband
 [![Hardware Architecture](https://img.shields.io/badge/Hardware-ESP32%20%7C%20sEMG%20%7C%20IMU-0284c7)](#hardware-architecture)
 [![ML Pipeline](https://img.shields.io/badge/Edge%20AI-TFLite%20Micro%20INT8-10b981)](#edge-ai--signal-processing)
 
-**VocSense** is a non-invasive, wearable silent speech recognition (SSR) neckband engineered for individuals with speech-motor impairments (aphonia, ALS, post-laryngectomy) and hands-free tactical communication. 
+**VocSense** is a non-invasive, wearable silent speech recognition neckband engineered for individuals with speech-motor impairments (aphonia, ALS, post-laryngectomy) and hands-free tactical communication. 
 
-By capturing submental surface electromyographic (sEMG) microvolt potentials alongside dynamic laryngeal kinematic strain, VocSense decodes unspoken phonetic articulation using on-device quantized Edge AI (<15ms latency) without requiring vocal fold vibration or cloud connectivity.
+By capturing submental surface electromyographic microvolt potentials alongside dynamic laryngeal kinematic strain, VocSense decodes unspoken phonetic articulation using on-device quantized Edge AI (less than 15ms latency) without requiring vocal fold vibration or cloud connectivity.
 
 ---
 
 ## Interactive 3D Digital Twin Visualizer
 
-An interactive 3D digital twin of the hardware collar has been built using **Three.js** and deployed via **Streamlit**.
+An interactive 3D digital twin of the hardware collar has been built using **app.py** and deployed via **Streamlit**.
 
 * **Live Web App:** [VocSense on Streamlit](https://vocsense.streamlit.app) *(or your deployed URL)*
 * **Features:** 360° OrbitControls inspection, raycasted hardware component identification, and real-time technical specification HUD cards.
@@ -62,3 +62,5 @@ An interactive 3D digital twin of the hardware collar has been built using **Thr
                          ┌──────────┴─────────┐
                          ▼                    ▼
                 [ Micro-Speaker ]     [ BLE 5.0 Output ]
+
+---
