@@ -1,5 +1,7 @@
 <div align="center">
+  
 # VocSense: Decoding Speech from Neck Muscle Activity
+
 Bio-Electronic Silent Speech Recognition Neckband
 
 <div align="center">
